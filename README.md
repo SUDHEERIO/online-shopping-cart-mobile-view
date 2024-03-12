@@ -1,1 +1,175 @@
 # online-shopping-cart-mobile-view
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="watches"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/titan" />
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile"
+            android:text="Titan"
+            android:layout_marginBottom="10sp"
+            android:textColor= "#03A9F4"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/mailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile"
+            android:layout_below="@+id/titleText"
+            android:layout_gravity="center"
+            android:text="model:Analog"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#222222"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/numberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile"
+            android:layout_below="@+id/mailText"
+            android:layout_gravity="center"
+            android:text="cost:2,500/-"
+            android:textColor="#222222"
+            android:textSize="25sp" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            android:text="BUY NOW"
+            android:textColor="#222222"
+            android:textSize="30sp"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ADD CART"
+            android:textColor="#222222"
+            android:textSize="25sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp">
+
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/fastrack" />
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile"
+            android:text="fastrack"
+            android:layout_marginBottom="10sp"
+            android:textColor= "#14C81B"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/mailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile"
+            android:layout_below="@+id/titleText"
+            android:layout_gravity="center"
+            android:text="model:digital"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#222222"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/numberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile"
+            android:layout_below="@+id/mailText"
+            android:layout_gravity="center"
+            android:text="cost:3,000/-"
+            android:textColor="#222222"
+            android:textSize="25sp" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BUYNOW"
+            android:textColor="#E8151314"
+            android:textSize="30sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ADD CART"
+            android:textColor="#222222"
+            android:textSize="25sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            />
+
+    </LinearLayout>
